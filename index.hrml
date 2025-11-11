@@ -125,10 +125,12 @@
           <p>Developed a web platform using React and Python for generating ATS-friendly resumes using NLP parsing and template design.</p>
         </div>
         <div class="project-card">
+          <a href="https://www.figma.com/design/RqsBgxp2MPtqsXdbka4LbO/webCopy?t=ZD32JwvmqBLD0Ow7-1"> click me </a>
           <h3>Full-Stack MERN App</h3>
           <p>Implemented a modern MERN stack application with authentication, REST API integration, and cloud deployment (Vercel).</p>
         </div>
         <div class="project-card">
+          <a href="https://www.figma.com/board/b1BK2VadnF82VQpYAdSNsI/webflow-ux-flow?t=ZD32JwvmqBLD0Ow7-1"> click me </a>
           <h3>Vehicle Performance Data Analytics</h3>
           <p>Analysed automotive datasets to optimize engine metrics and efficiency, with interactive dashboards in PowerBI.</p>
         </div>
