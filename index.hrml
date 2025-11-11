@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f6fa;
+      color: #222;
+    }
+    header {
+      background: #2e86de;
+      color: #fff;
+      padding: 2rem 0 1.5rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 0.5rem;
+    }
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      box-shadow: 0 6px 24px rgba(40,40,60,0.08);
+      border-radius: 8px;
+      padding: 2rem;
+    }
+    .section-title {
+      border-bottom: 1px solid #eee;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      color: #2e86de;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .project-card {
+      background: #f0f6ff;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(120,140,200,0.06);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .skill {
+      background: #d1e7fa;
+      color: #1b4f72;
+      border-radius: 16px;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    @media (max-width: 600px) {
+      .projects {
+        grid-template-columns: 1fr;
+      }
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sameer Mohammed</h1>
+    <p> Ui/Ux  Developer | Hyderabad, India</p>
+    <nav>
+      <a href="#about" style="color:#fff; margin: 0 1rem;">About</a>
+      <a href="#skills" style="color:#fff; margin: 0 1rem;">Skills</a>
+      <a href="#projects" style="color:#fff; margin: 0 1rem;">Projects</a>
+      <a href="#contact" style="color:#fff; margin: 0 1rem;">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        Detail-oriented professional making a career transition into Ui/Ux development. 
+        I specialize in Ui/Ux and modern web stack development. My workflow blends deep research with
+        practical solutions, and I enjoy sharing knowledge through content creation and technical blogging.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-list">
+        <span class="skill">figma</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">TypeScript</span>
+        <span class="skill">Ux</span>
+        <span class="skill">React</span>
+        <span class="skill">MongoDB</span>
+        <span class="skill">Next.js</span>
+        <span class="skill">Html</span>
+        <span class="skill">Css</span>
+        <span class="skill">prototype</span>
+        <span class="skill">UI/UX Design</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <a href="https://www.figma.com/design/x17mq6iM7MUxa4GVnbUyWT/Untitled?node-id=0-1&t=ZD32JwvmqBLD0Ow7-1">click to see </a>
+          <h3>AI Resume Builder</h3>
+          <p>Developed a web platform using React and Python for generating ATS-friendly resumes using NLP parsing and template design.</p>
+        </div>
+        <div class="project-card">
+          <h3>Full-Stack MERN App</h3>
+          <p>Implemented a modern MERN stack application with authentication, REST API integration, and cloud deployment (Vercel).</p>
+        </div>
+        <div class="project-card">
+          <h3>Vehicle Performance Data Analytics</h3>
+          <p>Analysed automotive datasets to optimize engine metrics and efficiency, with interactive dashboards in PowerBI.</p>
+        </div>
+        <div class="project-card">
+          <h3>Nutrition Optimizer</h3>
+          <p>Built a nutrition-tracking app for personalized family planning, using predictive algorithms and clean UI principles.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> sameermohammed62@gmail.com</li>
+        <li><strong>LinkedIn:</strong> linkedin.com/in/sameer121</li>
+        <li><strong>GitHub:</strong> github.com/sameer18081995/li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
